@@ -2,7 +2,7 @@
     "name": "ibunao/yii2-weditor",
     "description": "wangEditor for yii",
     "type": "library",
-    "keywords": ["wangEditor,yii-editor,editor,weditor"],
+    "keywords": ["wangEditor,yiieditor,editor,weditor,富文本编辑器"],
     "homepage": "https://github.com/echo-ding/yii2-wang-editor",
     "authors": [
         {

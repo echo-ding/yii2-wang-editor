@@ -1,0 +1,21 @@
+{
+    "name": "ding/weditor",
+    "description": "wangEditor for yii",
+    "type": "library",
+    "keywords": ["wangEditor,yii-editor,富文本编辑器"],
+    "homepage": "https://github.com/echo-ding/yii2-wang-editor",
+    "authors": [
+        {
+            "name": "丁冉",
+            "email": "275122510@qq.com",
+            "homepage": "www.bunao.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": ">=2.0.6"
+    },
+    "autoload": {
+        "psr-0": { "weditor": "" },
+    }
+}

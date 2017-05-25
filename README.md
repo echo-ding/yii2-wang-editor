@@ -6,6 +6,17 @@
 
 > 在yii站点根目录下执行 `omposer require ibunao/yii2-weditor`安装
 
+> 如果安装中出现下面的错误
+
+```
+ Problem 1
+    - sebastian/version 2.0.0 requires php >=5.6 -> your PHP version (5.5.12) does not satisfy that requirement.
+    - sebastian/version 2.0.0 requires php >=5.6 -> your PHP version (5.5.12) does not satisfy that requirement.
+    - sebastian/version 2.0.0 requires php >=5.6 -> your PHP version (5.5.12) does not satisfy that requirement.
+    - Installation request for sebastian/version (locked at 2.0.0) -> satisfiable by sebastian/version[2.0.0].
+```
+
+> 可以通过 `composer require ibunao/yii2-weditor --ignore-platform-reqs` 安装命令  
 
 ## 使用方法：
 
@@ -64,3 +75,4 @@ public function actions()
 > 推荐使用第二种方式  
 
 > 注意，宽高会受父元素的影响 ,比如`<div class="col-lg-12">`
+

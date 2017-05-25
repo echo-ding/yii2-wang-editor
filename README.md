@@ -1,6 +1,7 @@
 # Yii2 扩展-富文本编辑器（wangEditor） 
 
-为yii2准备的简洁的wangEditor富文本编辑器ventor
+为yii2准备的简洁的wangEditor富文本编辑器插件
+![](http://img4.07net01.com/upload/images/2015/08/28/1674810280830521.png)
 
 ## 安装方法：
 

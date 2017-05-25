@@ -1,5 +1,5 @@
 <?php
-namespace common\widgets\weditor;
+namespace weditor;
 
 use Yii;
 use yii\base\Action;

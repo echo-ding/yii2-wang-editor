@@ -1,5 +1,5 @@
 <?php
-namespace \widgets\weditor;
+namespace weditor;
 
  
 class Uploader

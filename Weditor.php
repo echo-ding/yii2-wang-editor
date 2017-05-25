@@ -1,5 +1,5 @@
 <?php
-namespace common\widgets\weditor;
+namespace weditor;
 
 use Yii;
 use yii\web\View;
@@ -8,7 +8,7 @@ use yii\helpers\Url;
 use yii\helpers\ArrayHelper;
 use yii\widgets\InputWidget;
 
-use common\widgets\weditor\assets\WeditorAsset;
+use weditor\assets\WeditorAsset;
 
 
 class Weditor extends InputWidget

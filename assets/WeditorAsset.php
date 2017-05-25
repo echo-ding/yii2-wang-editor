@@ -1,6 +1,6 @@
 <?php
 
-namespace common\widgets\weditor\assets;
+namespace weditor\assets;
 
 use Yii;
 use yii\web\AssetBundle;

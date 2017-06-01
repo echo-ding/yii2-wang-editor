@@ -52,7 +52,7 @@ class Weditor extends InputWidget
      */
     protected function registerClientScript()
     {
-        WEditorAsset::register($this->view);
+        WeditorAsset::register($this->view);
         $script = <<<"ding"
         wangEditor.config.printLog = false;
         var editor = new wangEditor('$this->id');

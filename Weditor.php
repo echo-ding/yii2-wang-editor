@@ -82,7 +82,7 @@ ding;
         //     height: 30px;
         // }
 css;
-        $this->view->registerJs($script, View::POS_READY);
+        $this->view->registerJs($script, View::POS_END);//POS_END，POS_READY，使用end避免和alert组件的js代码注册到一块，它的alert方法会错误，导致富文本编辑器的js代码无法执行
         // $this->view->registerCss($css);
     }
 }
